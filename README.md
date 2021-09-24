@@ -24,6 +24,13 @@ source myvenv/bin/activate
 ## Install
 
 ```
-pip install django djangorestframework django-cors-headers djoser and more
+pip install -r requirements.txt
 
+```
+
+## Django setting
+
+```
+django-admin startproject config .
+django-admin startapp api
 ```
